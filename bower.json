@@ -1,0 +1,6 @@
+{
+  "name": "senate-boxer-template",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}
