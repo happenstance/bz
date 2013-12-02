@@ -4,7 +4,7 @@
 
 body {
   height: 100%;
-  //$experimental-support-for-svg: true;
+  $experimental-support-for-svg: true;
   @include background(linear-gradient(white, #FDF4D5));
   //background-image: url("/img/stripe.png");
   background-repeat:no-repeat;
@@ -12,15 +12,15 @@ body {
 }
 
 #stripe {
-  @include grid-row();
+  //@include grid-row();
   background-image: url("/img/stripe.png");
-  width: 100%;
-  height: 420px;
+  width: 100% !important;
+  height: 360px;
   
 }
 
 #page {
-  @include grid-row($behavior:nested);
+  @include grid-row();
   box-shadow: 1px 3px 25px black;
   border-radius: 6px;
   padding-top: 50px;
