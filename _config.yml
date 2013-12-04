@@ -20,7 +20,7 @@ future: true
 show_drafts: true
 
 permalink: none
-paginate: 20
+paginate: 0
 paginate_path: 'page:num'
 
 # Markdown library
