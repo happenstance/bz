@@ -16,7 +16,7 @@
    <li><a href="{{previous}}">{{ first_word }}</a></li>
 
    			{% capture url_parts %}{{ url_parts | remove_first:first_word }}{% endcapture %}
- 		ß{% endfor %}
+ 		{% endfor %}
 {% endif %}
  <li class="active">{{ page.title }}</li>
 </ul>

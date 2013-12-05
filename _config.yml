@@ -19,7 +19,7 @@ include: ['.htaccess']
 future: true
 show_drafts: true
 
-permalink: none
+permalink: /:categories/:title/
 paginate: 0
 paginate_path: 'page:num'
 
